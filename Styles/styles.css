@@ -1,0 +1,93 @@
+ body {min-height: 1000px;}
+
+
+    .navbar-brand h1 { /* Restaurant name */ 
+        color: #000000;font-size: 2em;text-transform: uppercase;font-weight: bold;text-shadow: 1px 1px 1px #222; margin-top: 20px; margin-bottom: 0; line-height: .75;}
+
+    .navbar-brand a:hover, .navbar-brand a:focus {
+        text-decoration: none;}
+    li {
+        column-width: 100%;
+        display: block;
+        text-align: center;
+        border: .2px solid white;
+}
+    .navbar-toggle {margin-top: 20px;}
+
+.h1, h1 {
+    font-size: 25px;
+}
+.h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1  {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1 {
+    margin: .67em 0;
+    font-size: 2em;
+}
+
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    margin-before: 0.67em;
+    margin-after: 0.67em;
+    margin-start: 0px;
+    margin-end: 0px;
+    font-weight: bold;
+}
+    /* HOME PAGE */
+    .container .jumbotron {
+      max-height:   1000px; max-width: 1235px;  padding:15px;
+    }
+        .jumbotron {
+        background-color: white;
+        }
+        .container .section {padding: 0;float: left;}
+        .menu-boxes #box1 {
+            border: 1px solid black;padding: 0; margin:inherit; margin-bottom: 10px; 
+        }
+        .menu-boxes #box2 {
+            border: 1px solid black;padding: 0; margin:inherit; margin-bottom: 10px; 
+        }
+        .menu-boxes #box3 { 
+            border: 1px solid black;padding: 0; margin:inherit; margin-bottom: 10px; 
+        }
+
+        #menu1 {
+            text-align: center; background-color: #f48c0f;margin:inherit; padding:0;font-size: 1.2em; text-overflow: inherit;font-weight: bold;
+        }
+        #menu2 {
+             text-align: center; background-color: #b70d3b; margin:inherit;padding:0;font-size: 1.2em; text-overflow: inherit;font-weight: bold;
+        }
+        #menu3 {
+            text-align: center; background-color: #fff500; margin:inherit;padding:0;font-size: 1.2em; text-overflow: inherit;font-weight: bold;
+        }
+
+        .container p { font-size: 1em; text-align: left; padding: 10px; }
+
+    /********** Extra small devices only **********/
+    @media (max-width: 767px) {
+      /* Header */
+      .navbar-brand {
+        padding-top: 25px;
+        height: 80px;
+      } 
+      .navbar-brand h1 { /* Restaurant name */
+
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+      }
+      .navbar-brand p { /* Kosher cert */
+        font-size: .6em;
+        margin-top: 12px;
+        }
+
+
+
